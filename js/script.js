@@ -22,6 +22,17 @@ else{
     console.log(alert("Benvenuto alla festa"))
 }
 
-let start=alert("Premi ok")
-let x = (Math.random() * 6 + 1);
-console.log(alert(x.toFixed(0)));
+const start=alert("Premi ok")
+const giocatore  = (Math.random() * 6 + 1);
+const computer = (Math.random() * 6 + 1);
+
+if(giocatore>computer){
+    console.log(alert("Hai vinto!"));
+}
+else if(computer>giocatore){
+    console.log(alert("Il computer ha vinto"));
+}
+else{
+    console.log(alert("Pareggio!"));s
+}
+
