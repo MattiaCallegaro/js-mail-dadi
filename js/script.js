@@ -16,23 +16,31 @@ for(let i=0; checkEmail===false && i<email.length; i++ ){
 }
 
 if(checkEmail==false){
-    console.log(alert("Invito non trovato. Mi dispiace non puó partecipare alla festa"))
+    console.log("Invito non trovato. Mi dispiace non puó partecipare alla festa")
+    alert("Invito non trovato. Mi dispiace non puó partecipare alla festa");
 }
 else{
-    console.log(alert("Benvenuto alla festa"))
+    console.log("Benvenuto alla festa")
+    alert("Benvenuto alla festa");
 }
+
+
+
 
 const start=alert("Premi ok")
 const giocatore  = (Math.random() * 6 + 1);
 const computer = (Math.random() * 6 + 1);
 
 if(giocatore>computer){
-    console.log(alert("Hai vinto!"));
+    console.log("Hai vinto!");
+    alert("Hai vinto!");
 }
 else if(computer>giocatore){
-    console.log(alert("Il computer ha vinto"));
+    console.log("Il computer ha vinto");
+    alert("Il computer ha vinto");
 }
 else{
-    console.log(alert("Pareggio!"));s
+    console.log("Pareggio!");
+    alert("Pareggio!");
 }
 
