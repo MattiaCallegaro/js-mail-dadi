@@ -15,3 +15,9 @@ for(let i=0; checkEmail===false && i<email.length; i++ ){
     }
 }
 
+if(checkEmail==false){
+    console.log("Invito non trovato. Mi dispiace non puó partecipare alla festa")
+}
+else{
+    console.log("Benvenuto alla festa")
+}
