@@ -16,8 +16,12 @@ for(let i=0; checkEmail===false && i<email.length; i++ ){
 }
 
 if(checkEmail==false){
-    console.log("Invito non trovato. Mi dispiace non puó partecipare alla festa")
+    console.log(alert("Invito non trovato. Mi dispiace non puó partecipare alla festa"))
 }
 else{
-    console.log("Benvenuto alla festa")
+    console.log(alert("Benvenuto alla festa"))
 }
+
+let start=alert("Premi ok")
+let x = (Math.random() * 6 + 1);
+console.log(alert(x.toFixed(0)));
